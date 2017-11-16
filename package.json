@@ -1,11 +1,11 @@
 {
 	"name": "chatty",
 	"version": "0.0.1",
-    "private": true,
-    "description": "A WhatsApp clone built using React Native and Apollo",
-    "author": "Manish Munikar <munikarmanish@gmail.com>",
-    "repository": "github:munikarmanish/chatty-app",
-    "license": "MIT",
+	"private": true,
+	"description": "A WhatsApp clone built using React Native and Apollo",
+	"author": "Manish Munikar <munikarmanish@gmail.com>",
+	"repository": "github:munikarmanish/chatty-app",
+	"license": "MIT",
 	"scripts": {
 		"start": "node node_modules/react-native/local-cli/cli.js start",
 		"test": "jest"
@@ -17,6 +17,11 @@
 	"devDependencies": {
 		"babel-jest": "21.2.0",
 		"babel-preset-react-native": "4.0.0",
+		"eslint": "^4.11.0",
+		"eslint-config-airbnb": "^16.1.0",
+		"eslint-plugin-import": "^2.8.0",
+		"eslint-plugin-jsx-a11y": "^6.0.2",
+		"eslint-plugin-react": "^7.4.0",
 		"jest": "21.2.1",
 		"react-test-renderer": "16.0.0"
 	},
