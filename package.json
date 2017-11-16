@@ -1,7 +1,11 @@
 {
 	"name": "chatty",
 	"version": "0.0.1",
-	"private": true,
+    "private": true,
+    "description": "A WhatsApp clone built using React Native and Apollo",
+    "author": "Manish Munikar <munikarmanish@gmail.com>",
+    "repository": "github:munikarmanish/chatty-app",
+    "license": "MIT",
 	"scripts": {
 		"start": "node node_modules/react-native/local-cli/cli.js start",
 		"test": "jest"
